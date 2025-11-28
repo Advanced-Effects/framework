@@ -43,28 +43,12 @@ if (MUSE_MODULE_AUTOBOT)
     add_subdirectory(autobot)
 endif()
 
-if (MUSE_MODULE_CLOUD)
-    add_subdirectory(cloud)
-endif()
-
 if (MUSE_MODULE_DIAGNOSTICS)
     add_subdirectory(diagnostics)
 endif()
 
 if (MUSE_MODULE_DRAW)
     add_subdirectory(draw)
-endif()
-
-if (MUSE_MODULE_MIDI)
-    add_subdirectory(midi)
-endif()
-
-if (MUSE_MODULE_MPE)
-    add_subdirectory(mpe)
-endif()
-
-if (MUSE_MODULE_MUSESAMPLER)
-    add_subdirectory(musesampler)
 endif()
 
 if (MUSE_MODULE_UI)
@@ -106,10 +90,6 @@ endif()
 
 if (MUSE_MODULE_WORKSPACE)
     add_subdirectory(workspace)
-endif()
-
-if (MUSE_MODULE_VST)
-    add_subdirectory(vst)
 endif()
 
 if (MUSE_MODULE_UPDATE)
