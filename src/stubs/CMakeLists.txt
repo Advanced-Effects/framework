@@ -22,14 +22,6 @@ if (NOT MUSE_MODULE_ACCESSIBILITY)
     add_subdirectory(accessibility)
 endif()
 
-if (NOT MUSE_MODULE_AUDIO)
-    add_subdirectory(audio)
-endif()
-
-if (NOT MUSE_MODULE_CLOUD)
-    add_subdirectory(cloud)
-endif()
-
 if (NOT MUSE_MODULE_EXTENSIONS)
     add_subdirectory(extensions)
 endif()
@@ -40,14 +32,6 @@ endif()
 
 if (NOT MUSE_MODULE_LEARN)
     add_subdirectory(learn)
-endif()
-
-if (NOT MUSE_MODULE_MIDI)
-    add_subdirectory(midi)
-endif()
-
-if (NOT MUSE_MODULE_MPE)
-    add_subdirectory(mpe)
 endif()
 
 if (NOT MUSE_MODULE_MULTIINSTANCES)
@@ -68,10 +52,6 @@ endif()
 
 if (NOT MUSE_MODULE_UPDATE)
     add_subdirectory(update)
-endif()
-
-if (NOT MUSE_MODULE_VST)
-    add_subdirectory(vst)
 endif()
 
 if (NOT MUSE_MODULE_WORKSPACE)
