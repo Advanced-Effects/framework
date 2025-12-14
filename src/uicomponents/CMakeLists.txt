@@ -17,7 +17,7 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
+include(DeclareModuleSetup)
 muse_create_module(muse_uicomponents ALIAS muse::uicomponents)
 
 target_sources(muse_uicomponents PRIVATE
