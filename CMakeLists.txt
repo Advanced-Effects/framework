@@ -34,6 +34,10 @@ set(MUSE_MODULE_WORKSPACE ON)
 # Configure environment
 ##########################
 
+if (NOT MUSE_FRAMEWORK_PATH)
+        set(MUSE_FRAMEWORK_PATH ${PROJECT_SOURCE_DIR})
+endif()
+
 set(CMAKE_MODULE_PATH
         ${CMAKE_MODULE_PATH}
         ${CMAKE_CURRENT_SOURCE_DIR}/buildscripts
